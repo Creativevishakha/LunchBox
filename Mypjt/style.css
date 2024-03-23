@@ -1,0 +1,317 @@
+/* Global Styles */
+/* @import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap') */
+
+    
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+}
+#searchInput {
+    margin-top: 5rem;
+    text-align: center;
+    width: 40%;
+    margin-left: 28em;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 5em;
+  }
+  
+  #searchInput input[type="text"] {
+    padding: 0.5rem;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #searchInput button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }  
+  .searchcontainer{
+    /* background-image: url('./about.avif'); */
+    /* background :linear-gradient(45deg, blueviolet, lightgreen); */
+  }
+  #chhotu{
+    border-radius: 8px;
+    height: 2em;
+    width: 5em;
+  } 
+      
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    /* height: 20%; */
+} 
+
+/* Header Styles */
+ /* header {
+    background-image: url("./navbar2.jpg"); */ 
+    /* background-color: #a38989; */
+     /* color: #fff; */
+     /* padding: 20px 0; */
+    /* height: 100px; */
+     /* position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}  */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    /* position: fixed; */
+}
+
+
+
+header img {
+    height: 50px; /* Adjust as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+i{
+    font-size: 40px;
+    cursor: pointer;
+   margin-left: 30em;
+    top: 50%;
+    left: 50%;
+    margin-bottom: 2em;
+    transform: translate(-50%, -50%); 
+   /* position: static; */
+}
+
+
+/* Hero Section Styles */
+ .hero {
+    /* background :linear-gradient(45deg, blueviolet, lightgreen); */
+    /* background-image: url('./search.avif'); */
+    background-size: cover;
+  
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+} 
+
+/* About Section Styles */
+ .about {
+   
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+} 
+
+/* Menu Section Styles */
+ .menu {
+    padding: 50px 0;
+   
+}
+.container1{
+    background:linear-gradient(45deg, blueviolet, lightgreen);
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.container1 .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container1 .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container1 .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container1 .box-container .box img{
+    height: 80px;
+}
+
+.container1 .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container1 .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container1 .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container1 .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container1 .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
+
+.menu h2 {
+    text-align: center;
+}
+
+/* How It Works Section Styles */
+.how-it-works {
+    padding: 50px 0;
+} 
+
+.how-it-works h2 {
+    text-align: center;
+    
+}
+
+.how-it-works ol {
+    text-align: left;
+} 
+.workcontainer{
+    justify-content: center;
+    display: flex;
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust as needed */
+  justify-items: center; /* Align items horizontally at the center */
+} 
+
+/* Benefits Section Styles */
+ .benefits {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.benefits h2 {
+    text-align: center;
+}
+
+.benefits ul {
+    text-align: left;
+} 
+
+/* CTA Section Styles */
+ .cta {
+    padding: 50px 0;
+}
+
+.cta h2 {
+    text-align: center;
+} 
+
+/* FAQ Section Styles */
+.faq {
+    padding: 50px 0;
+}
+
+.faq h2 {
+    text-align: center;
+} 
+
+/* Contact Section Styles */
+ .contact {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact p {
+    text-align: center;
+} 
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer nav ul {
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+} 
+.r1{
+    background-color: #fff;
+    width: 100%;
+    height: 262px;
+}
+.r1 h5{
+    margin-left:60em ;
+   /* position: relative; */
+   margin-bottom: 30em;
+}

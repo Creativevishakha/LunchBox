@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Tiffin Service</title>
+    <style>
+        /* CSS for buttons */
+        .bt1{
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #a5a8aa;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+        }
+        
+        /* CSS for button hover effect */
+        .bt1:hover {
+          background-color:red;
+        }
+        .bt2{
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #a5a8aa;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+        }
+        
+        /* CSS for button hover effect */
+        .bt2:hover {
+          background-color:red;
+        }
+        .bt3{
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #a5a8aa;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+        }
+        
+        /* CSS for button hover effect */
+        .bt3:hover {
+          background-color:red;
+        }
+        .bt4{
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #a5a8aa;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+        }
+        
+        /* CSS for button hover effect */
+        .bt4:hover {
+          background-color:red;
+        }
+        .bt5{
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #a5a8aa;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+        }
+        
+        /* CSS for button hover effect */
+        .bt5:hover {
+          background-color:red;
+        }
+        .bt6{
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #a5a8aa;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+        }
+        
+        /* CSS for button hover effect */
+        .bt6:hover {
+          background-color:red;
+        }
+        .bt7{
+          display: inline-block;
+          padding: 10px 20px;
+          background-color:#a5a8aa;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+        }
+        
+        /* CSS for button hover effect */
+        .bt7:hover {
+          background-color:red;
+        }
+        </style>
+        
+        
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="maincontainer">
+    <header>
+        <div class="container">
+            <h1>Tiffin Service</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="order.html">Order Now</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="menu-section">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-items">
+            <div class="buttonstyle">
+                <button class="bt1 btn" type="button" class="btn btn-light">Monday</button>
+                <button class="bt2 btn" type="button" class="btn btn-light">Tuesday</button>
+                <button class="bt3 btn" type="button" class="btn btn-light">Wednesday</button>
+                <button class="bt4 btn" type="button" class="btn btn-light">Thursday</button>
+                <button class="bt5 btn" type="button" class="btn btn-light">Friday</button>
+                <button class="bt6 btn" type="button" class="btn btn-light">Saturday</button>
+                <button class="bt7 btn" type="button" class="btn btn-light">Sunday</button>
+                <!-- Add more menu items as needed -->
+            </div>  
+        </div>
+        </div>
+    </section>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+     
+      <section class="menu-item">
+        <div class="menu-time">
+            <button class="bt8" type="button" class="btn btn-light">Breakfast</button>
+            <button class="bt9" type="button" class="btn btn-light">Lunch</button>
+            <button class="bt10" type="button" class="btn btn-light">Dinner</button> 
+
+        </div>
+
+    </section>
+    </div>
+    <div class="overlay hidden"></div>
+    <script>
+        // JavaScript to handle button click event
+        document.addEventListener('DOMContentLoaded', function() {
+          // Add click event listener to all buttons with class 'button'
+          var buttons = document.getElementsByClassName('.bt1');
+          buttons.forEach(function(button) {
+            button.addEventListener('click', function() {
+           buttons.style.backgroundColor='red';
+            });
+          });
+        });
+        </script>
+        <script>
+            // JavaScript to handle button click event
+            document.addEventListener('DOMContentLoaded', function() {
+              // Add click event listener to all buttons with class 'button'
+              var buttons = document.getElementsByClassName('.bt2');
+              buttons.forEach(function(button) {
+                button.addEventListener('click', function() {
+               buttons.style.backgroundColor='red';
+                });
+              });
+            });
+            </script>
+            <script>
+                // JavaScript to handle button click event
+                document.addEventListener('DOMContentLoaded', function() {
+                  // Add click event listener to all buttons with class 'button'
+                  var buttons = document.getElementsByClassName('.bt3');
+                  buttons.forEach(function(button) {
+                    button.addEventListener('click', function() {
+                   buttons.style.backgroundColor='red';
+                    });
+                  });
+                });
+                </script>
+                <script>
+                    // JavaScript to handle button click event
+                    document.addEventListener('DOMContentLoaded', function() {
+                      // Add click event listener to all buttons with class 'button'
+                      var buttons = document.getElementsByClassName('.bt4');
+                      buttons.forEach(function(button) {
+                        button.addEventListener('click', function() {
+                       buttons.style.backgroundColor='red';
+                        });
+                      });
+                    });
+                    </script>
+                    <script>
+                        // JavaScript to handle button click event
+                        document.addEventListener('DOMContentLoaded', function() {
+                          // Add click event listener to all buttons with class 'button'
+                          var buttons = document.getElementsByClassName('.bt5');
+                          buttons.forEach(function(button) {
+                            button.addEventListener('click', function() {
+                           buttons.style.backgroundColor='red';
+                            });
+                          });
+                        });
+                        </script>
+                        <script>
+                            // JavaScript to handle button click event
+                            document.addEventListener('DOMContentLoaded', function() {
+                              // Add click event listener to all buttons with class 'button'
+                              var buttons = document.getElementsByClassName('.bt6');
+                              buttons.forEach(function(button) {
+                                button.addEventListener('click', function() {
+                               buttons.style.backgroundColor='red';
+                                });
+                              });
+                            });
+                            </script>
+                            <script>
+                                // JavaScript to handle button click event
+                                document.addEventListener('DOMContentLoaded', function() {
+                                  // Add click event listener to all buttons with class 'button'
+                                  var buttons = document.getElementsByClassName('.bt7');
+                                  buttons.forEach(function(button) {
+                                    button.addEventListener('click', function() {
+                                   buttons.style.backgroundColor='red';
+                                    });
+                                  });
+                                });
+                                </script>
+                                <script type="module" src="menu.js"></script>
+                                </div>
+                          
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tiffin Service. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
